@@ -13,12 +13,12 @@ export default function Projects(): JSX.Element {
           >
             <div className="flex flex-row items-center justify-between font-medium">
               <p>🚀{p.name}</p>
-              <a href={p.link} target="_blank" rel="noopener noreferrer">
+              <a href={p.link} target="_blank" rel="noopener noreferrer" className="text-sm font-mono">
                 🔗
               </a>
             </div>
             <p className="font-thin text-sm">{p.des}</p>
-            <div className="flex flex-row gap-2 my-2 text-sm font-sans  ">
+            <div className="flex flex-row flex-wrap gap-2 my-2 text-sm font-sans  ">
               {p.techStack.map((item, itemKey) => (
                 <TechStackDesign item={item} key={itemKey} />
               ))}
