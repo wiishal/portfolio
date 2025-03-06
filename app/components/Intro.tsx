@@ -13,7 +13,7 @@ export default function Intro(): JSX.Element {
         I specialize in building scalable and high-performance applications with
         MERN, TypeScript, PostgreSQL, and{" "}
         <span className="text-orange-400 font-medium">AI integration</span>. I
-        build real-time systems, encrypted messaging apps, and AI-powered
+        build real-time systems and AI-powered
         solutions to enhance digital experiences.
       </p>
       <div className="border border-transparent text-white mt-5 flex flex-row gap-3 align-middle">
