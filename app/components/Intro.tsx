@@ -2,11 +2,13 @@ import { JSX } from "react";
 
 export default function Intro(): JSX.Element {
   return (
-    // Hello, I'm a Full-Stack Developer passionate about building scalable and high-performance applications. With expertise in the MERN stack, TypeScript, and Prisma ORM, I specialize in developing real-time communication systems, encrypted messaging apps, and AI-driven solutions.
     <div className="flex flex-col gap-5 border-blue-500">
-      <h1 className="text-3xl text-white">Hi, I'm Vishal {"\u{1F44B}"}</h1>
+      <h1 className="text-3xl text-white">
+        Hi, I&rsquo;m Vishal {"\u{1F44B}"}
+      </h1>
+
       <p className="font-thin text-base text-neutral-200">
-        Hello, I'm a{" "}
+        Hello,  I&rsquo;m a{" "}
         <span className="text-orange-400 font-medium">Software Developer</span>.
         I specialize in building scalable and high-performance applications with
         MERN, TypeScript, PostgreSQL, and{" "}
