@@ -1,7 +1,7 @@
 export const projects: project[] = [
   {
     name: "ezemail",
-    des: " platform that helps users enhance their email writing skills with AI-driven feedback!",
+    des: "ezemail is a platform that helps users enhance their email writing skills with AI-driven feedback!",
     techStack: ["NextJs", "Auth0", "llama"],
     link: "https://ezemail-beta.vercel.app/",
   },
